@@ -1,9 +1,0 @@
-[submodule "src/Auth"]
-	path = src/Auth
-	url = git@github.com:nnaio/DevOpsFeed.Auth.git
-[submodule "src/Status"]
-	path = src/Status
-	url = git@github.com:nnaio/DevOpsFeed.Status.git
-[submodule "src/Feed"]
-	path = src/Feed
-	url = git@github.com:nnaio/DevOpsFeed.Feed.git
