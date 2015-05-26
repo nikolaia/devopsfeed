@@ -1972,7 +1972,7 @@
     },
     "Microsoft.CodeAnalysis.Analyzers/1.0.0-rc2": {
       "serviceable": false,
-      "sha": "S3P/WuSCgbhIxMVDFCJiJAh9g8ZVVIISsFn2lKqJYJdRGiFM2WJR0I46psNVXJt2uM13SBSGiAKAdqOeRvhl7w==",
+      "sha": "/4Z5es8TXCEn5sfzWz2uhUITmikgCfMAhehMJPQcSD2FRp2ooLTczDq3p4KOl+bcnsvaAu0aKrmdRgOvkrcwhw==",
       "frameworks": {
         "DNX,Version=v4.5.1": {
           "dependencies": {},
@@ -2004,7 +2004,7 @@
     },
     "Microsoft.CodeAnalysis.Common/1.0.0-rc2": {
       "serviceable": false,
-      "sha": "LIc/rzjORrM0jrQ9ZtoIwJWbYi4IM7RvcSFT9YLe2uH9aBPq2oQ7qimK3ZosZJE+5faoJ+DgfGOigWw6uQpmQw==",
+      "sha": "7ALXqeJxiEMgnSST2qlWMThc5CIhJNFsUKYITIXXXj7gf8mF+ktEuKgUE7NWePzUgi0gq/2WmBX/4yWJuF1j6w==",
       "frameworks": {
         "DNX,Version=v4.5.1": {
           "dependencies": {
@@ -2052,7 +2052,7 @@
     },
     "Microsoft.CodeAnalysis.CSharp/1.0.0-rc2": {
       "serviceable": false,
-      "sha": "RdXyaAZSRJH/oU6ccy3RNgGVMwFY1fY41I0Rtpbch9nq4mePYrkjTk3YObNHYa4lowAhktlaUoQOpprmOzc/kg==",
+      "sha": "wsj0BdWRY+fsUINMEQ+uanN0pWMAMj2z0UiJKjwoUo/Xbrk7PqGklzpOB7lvlESHjO8+Eaw71PQnml6j7m7rdQ==",
       "frameworks": {
         "DNX,Version=v4.5.1": {
           "dependencies": {
@@ -3618,6 +3618,34 @@
         "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.dll",
         "lib/portable-net45+wp80+win8+wpa81+aspnetcore50/Newtonsoft.Json.xml",
         "tools/install.ps1"
+      ]
+    },
+    "Owin/1.0": {
+      "serviceable": false,
+      "sha": "OseTFniKmyp76mEzOBwIKGBRS5eMoYNkMKaMXOpxx9jv88+b6mh1rSaw43vjBOItNhaLFG3d0a20PfHyibH5sw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net40/Owin.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net40/Owin.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Owin.1.0.nupkg",
+        "Owin.1.0.nupkg.sha512",
+        "Owin.nuspec",
+        "lib/net40/Owin.dll"
       ]
     },
     "System.AppContext/4.0.0-beta-22816": {
@@ -6479,6 +6507,71 @@
         "lib/contract/System.Xml.XmlSerializer.dll",
         "lib/net45/System.Xml.XmlSerializer.dll",
         "lib/portable-wpa81+wp80+win80+net45+aspnetcore50/System.Xml.XmlSerializer.dll"
+      ]
+    },
+    "Thinktecture.IdentityModel.Core/1.4.0": {
+      "serviceable": false,
+      "sha": "foWdCCB7kJHdRKLwMosgizY50Ors9u2naT9LheD+5yEDrr8j4dXxvnTl0mRMMWwNlqHVVc0KL0asCwY3z6ehrQ==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {},
+          "frameworkAssemblies": [
+            "System.IdentityModel"
+          ],
+          "runtimeAssemblies": [
+            "lib/net45/Thinktecture.IdentityModel.Core.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/Thinktecture.IdentityModel.Core.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {},
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Thinktecture.IdentityModel.Core.1.4.0.nupkg",
+        "Thinktecture.IdentityModel.Core.1.4.0.nupkg.sha512",
+        "Thinktecture.IdentityModel.Core.nuspec",
+        "lib/net45/Thinktecture.IdentityModel.Core.dll",
+        "lib/net45/Thinktecture.IdentityModel.Core.pdb"
+      ]
+    },
+    "Thinktecture.IdentityServer3/1.6.1": {
+      "serviceable": false,
+      "sha": "8mfbctTH3AyXqXJtbGlbAsg77BF35lSh2PCnEW+K+bwou4jw8oAsj7l25b5p+2jD14aL7YrN9TlylIlgaWHRNw==",
+      "frameworks": {
+        "DNX,Version=v4.5.1": {
+          "dependencies": {
+            "Owin": "1.0"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [
+            "lib/net45/Thinktecture.IdentityServer3.dll"
+          ],
+          "compileAssemblies": [
+            "lib/net45/Thinktecture.IdentityServer3.dll"
+          ]
+        },
+        "DNXCore,Version=v5.0": {
+          "dependencies": {
+            "Owin": "1.0"
+          },
+          "frameworkAssemblies": [],
+          "runtimeAssemblies": [],
+          "compileAssemblies": []
+        }
+      },
+      "files": [
+        "Thinktecture.IdentityServer3.1.6.1.nupkg",
+        "Thinktecture.IdentityServer3.1.6.1.nupkg.sha512",
+        "Thinktecture.IdentityServer3.nuspec",
+        "lib/net45/Thinktecture.IdentityServer3.dll",
+        "lib/net45/Thinktecture.IdentityServer3.pdb",
+        "lib/net45/Thinktecture.IdentityServer3.xml"
       ]
     },
     "xunit/2.1.0-beta2-build2981": {
