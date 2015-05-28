@@ -7,8 +7,8 @@
 
   <Import Project="$(VSToolsPath)\DNX\Microsoft.DNX.Props" Condition="'$(VSToolsPath)' != ''" />
   <PropertyGroup Label="Globals">
-    <ProjectGuid>ec28fa3c-e457-437d-99ac-6dc55e86b3b0</ProjectGuid>
-    <RootNamespace>DevOpsFeed.Status.IntegrationTests</RootNamespace>
+    <ProjectGuid>84f83625-2341-4675-935b-bc8b80113bda</ProjectGuid>
+    <RootNamespace>DevOpsFeed.Auth.Tests</RootNamespace>
     <BaseIntermediateOutputPath Condition="'$(BaseIntermediateOutputPath)'=='' ">..\..\artifacts\obj\$(MSBuildProjectName)</BaseIntermediateOutputPath>
     <OutputPath Condition="'$(OutputPath)'=='' ">..\..\artifacts\bin\$(MSBuildProjectName)\</OutputPath>
   </PropertyGroup>
