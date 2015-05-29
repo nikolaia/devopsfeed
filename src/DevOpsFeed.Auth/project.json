@@ -1,11 +1,11 @@
 ﻿{
     "dependencies": {
-        "Microsoft.AspNet.Authentication.Cookies": "1.0.0-*",
-        "Microsoft.AspNet.DataProtection": "1.0.0-*",
-        "Microsoft.AspNet.Server.WebListener": "1.0.0-*",
-        "Microsoft.AspNet.Server.IIS": "1.0.0-*",
-        "Microsoft.Framework.Logging.Console": "1.0.0-*",
-        "Kestrel": "1.0.0-*"
+        "Microsoft.AspNet.Authentication.Cookies": "1.0.0-beta6-12469",
+        "Microsoft.AspNet.DataProtection": "1.0.0-beta6-11448",
+        "Microsoft.AspNet.Server.WebListener": "1.0.0-beta6-12234",
+        "Microsoft.AspNet.Server.IIS": "1.0.0-beta6-11850",
+        "Microsoft.Framework.Logging.Console": "1.0.0-beta6-11420",
+        "Kestrel": "1.0.0-beta6-11775"
     },
     "commands": {
         "web": "Microsoft.AspNet.Hosting server=Microsoft.AspNet.Server.WebListener server.urls=http://localhost:12345",
